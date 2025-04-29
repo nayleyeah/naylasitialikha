@@ -1,0 +1,127 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Garamond;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+.wrapper {
+    width: 100%;
+}
+
+#header {
+    background-color: #519a25 ;
+    padding: 10px 0;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+    width: 90%; 
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.left {
+	display:flex;
+	align-items:center;
+	gap: 10 px;
+}
+
+.left img {
+    width: 100px;
+}
+
+#title {
+	font-size: 24px;
+	font-weight: bold;
+	color: white;
+}
+
+.right {
+    display: flex;
+    gap: 15px; 
+    margin-left: auto; 
+}
+
+.right a {
+    color: #80e841;
+    font-size: 20px;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.right a:hover {
+    color: #2b5710;
+}
+
+.section#gallery {
+    background-image: url('middle.jpg');
+    color: white;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.section#gallery h1 {
+    margin-bottom: 30px;
+    font-size: 36px;
+}
+
+.gallery-container {
+    background-color: #2b5710 ;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    flex-wrap: wrap; 
+    border-radius: 10px;
+}
+
+.gallery-container img {
+    width: 180px;
+    height: 140px;
+    object-fit: cover;
+    border: 2px solid #2b5710;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.gallery-container img:hover {
+    transform: scale(1.05);
+}
+
+#footer .container {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+#footer .bottom {
+    background-color: #83c859;
+    color: #2b5710 ;
+    padding: 20px 0;
+    text-align: center;
+}
+
+#footer .bottom .social-icons a {
+    color: #2b5710;
+    padding: 8px;
+    margin-left: 10px;
+    transition: background 0.3s, border 0.3s;
+}
+
+#footer .bottom .social-icons a:hover {
+    background-color: #27580a;
+}
+
